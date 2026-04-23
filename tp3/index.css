@@ -1,0 +1,38 @@
+.shanks{
+    width: 2000px;
+    height: auto;
+    animation: floatXY 8s ease-in-out infinite;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./assets/images/admiral.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.divmaman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@keyframes floatXY{
+    0%{
+        transform: translate(-800px,800px);
+    }
+    25%{
+        transform: translate(800px,800px);
+    }
+    50%{
+        transform: translate(800px,-800px);
+    }
+    75%{
+        transform: translate(-800px,-800px);
+    }
+    100%{
+        transform: translate(-800px,800px);
+    }
+}

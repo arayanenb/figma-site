@@ -1,0 +1,159 @@
+h3{
+    color: red;
+}
+h2{
+    color : green;
+}
+
+.paragraphe1{
+    color: blue;
+}
+.paragraphe2{
+    color: brown;
+}
+h3
+{
+    color: brown;
+}
+h4{
+    color: rgb(26, 108, 69);
+}
+
+body
+{
+background-color: white;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1
+{
+width: 200px;
+height: 200px;
+border: 2px solid black;
+border-radius: 50%;
+margin-bottom: 30px;
+}
+
+.img1:hover
+{
+    margin-left: 50px;
+    border: 2px solid rgb(129, 168, 21);
+    transition: 0.5s ease-in-out;
+    scale: 1.1;
+}
+.img2
+{
+    width: 200px;
+    height: 200px;
+}
+
+.img2:hover
+{
+    margin-left: 50px;
+    margin-top: 40px;
+    border: 2px solid rgb(161, 98, 156);
+    transition: 0.5s ease-in-out;
+    scale: 1.1;
+}
+.div1
+{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 108, 69);
+    margin-bottom: 80px;
+}
+
+.div2
+{
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(134, 47, 29);
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+.div3
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    cursor :zoom-out;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(93, 165, 204);
+    margin-bottom: 60px;
+}
+
+.div4
+{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 100px;
+    height: 80px;
+    background-color: rgb(48, 74, 123);
+    margin-bottom: 40px;
+}
+
+
+.div1:hover
+{
+    background-color: rgb(86, 206, 148);
+    cursor: progress;
+    transition: 1s ease-in-out;
+    scale: 1.3;
+}
+.div2:hover
+{
+    background-color: rgb(108, 118, 189);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    scale: 1.3;
+}
+.div3:hover
+{
+    background-color: rgb(143, 185, 61);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    scale: 1.5;
+}
+.div4:hover
+{
+    background-color: rgb(48, 74, 123);
+    cursor :zoom-in;
+    transition: 1s ease-in-out;
+    scale: 1.5;
+}
+
+.btn1
+{
+    margin-left: 40px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(190, 191, 205);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.btn1:hover
+{
+    box-shadow: -5px 5px 20px 2px rgb(41, 228, 137);
+    cursor: pointer;
+    scale: 1.1;
+    background-color: rgb(66, 74, 194);
+    transition: 0.5s ease-in-out;
+}
+
+body
+{
+    background-color: bisque;
+}
